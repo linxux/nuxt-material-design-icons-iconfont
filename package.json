@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-material-design-icons-iconfont",
+  "version": "1.0.0",
+  "description": "Nuxt Material Design Icons - iconfont Module",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "linxux (lin.branker.data@gmail.com)"
+    }
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:linxux/nuxt-material-design-icons-iconfont.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "keywords": [
+    "nuxt",
+    "icons",
+    "material-design-icons",
+    "material-design-icons-iconfont",
+    "module"
+  ],
+  "dependencies": {
+    "material-design-icons-iconfont": "^5.0.1"
+  },
+  "devDependencies": {
+    "standard-version": "latest"
+  }
+}
